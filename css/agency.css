@@ -293,6 +293,7 @@ section h3.section-subheading {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
+  color: #FF8687;
 }
 @media (min-width: 768px) {
   section {
@@ -485,7 +486,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #7F6969;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -518,7 +519,7 @@ ul.social-buttons li a:active {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(255, 134, 135, 0.7);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -564,11 +565,13 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #FF8687;
+  background: #7F4343;
+  color: white;
 }
 ::selection {
   text-shadow: none;
-  background: #FF8687;
+  background: #7F4343;
+  color: white;
 }
 img::selection {
   background: transparent;
